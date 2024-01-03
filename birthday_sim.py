@@ -8,7 +8,7 @@ bday_list = []
 n = 1000 # trials
 counter = 0
 
-# modified code from Jochen Ritzel on stackoverflow to determine if a list contains duplicates
+# code from Jochen Ritzel on stackoverflow to determine if a list contains duplicates
 def has1dup(lst):
     return len(lst)-1 == len(set(lst))
 
